@@ -22,10 +22,28 @@
   color: #e3dede;
   font-weight: lighter;
 }
+.game-info li {
+  width: 12rem;
+  color: #383a3f;
+  font-size: 1rem;
+}
+.game-info {
+  text-align: -webkit-center;
+}
+.btn-history {
+  width: 12rem;
+  height: 2rem;
+  border-radius: 15px;
+  color: #566270;
+  font-weight: bold;
+  background-color: #e0e3da;
+  margin-bottom: 5px;
+}
 .square:hover {
   background-color: #af4034;
   border: solid 1.1px #ec6a5c;
 }
+
 @media only screen and (max-width: 500px) {
   .square {
     width: 8rem;
